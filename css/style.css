@@ -20,3 +20,19 @@ body {
     font-size: 2rem;
     margin: 50px auto;
 }
+
+button {
+    background-color: aliceblue;
+    font-size: 2rem;
+    padding: 12px 20px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: green;
+}
