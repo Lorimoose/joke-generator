@@ -1,41 +1,33 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Belanosima', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Belanosima", sans-serif;
 }
 
 #title {
-    margin-top: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 #cocktail-img {
-    width: 40rem;
-    height: 35rem;
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 50px;
 }
 
-.card {
-    background-color: aliceblue;
-    font-size: 2rem;
-    margin: 50px auto;
-    border-radius: 1.5rem;
-}
-
-button {
-    background-color: aliceblue;
-    font-size: 2rem;
-    padding: 12px 20px;
-    margin: 50px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.5rem;
-    cursor: pointer;
+#regenerate-btn {
+  background-color: aliceblue;
+  font-size: 2rem;
+  padding: 12px 20px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  cursor: pointer;
 }
 
 button:hover {
-    color: green;
+  color: green;
 }
