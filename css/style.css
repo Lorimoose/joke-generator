@@ -7,27 +7,43 @@ body {
 }
 
 #title {
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin: 50px 0px 25px;
+  font-size: 1.5rem;
 }
 
 #cocktail-img {
-    border-radius: 1rem;
-    margin-bottom: 50px;
+  height: auto;
+  border-radius: 0.5rem;
+  display: block;
 }
 
 #regenerate-btn {
   background-color: aliceblue;
-  font-size: 2rem;
-  padding: 12px 20px;
-  margin: 50px auto;
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 0px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
 button:hover {
   color: green;
 }
+
+#quote {
+  color: black;
+  font-size: 1rem;
+}
+
+#author {
+  color: cadetblue;
+  font-size: 1rem;
+}
+
+.figure-caption {
+  margin: 25px 25px 0px;
+}
+
