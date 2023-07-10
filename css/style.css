@@ -41,7 +41,7 @@ body {
   background-color: aliceblue;
   font-size: 1.3rem;
   padding: 5px 10px;
-  margin: 0px auto;
+  margin: 0px auto 100px;
   display: flex;
   justify-content: center;
   align-items: center;
