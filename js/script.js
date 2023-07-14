@@ -1,24 +1,24 @@
-const content = document.querySelector("#quote");
-const author = document.querySelector("#author");
+const setup = document.querySelector("#setup");
+const punchline = document.querySelector("#punchline");
 const button = document.querySelector("#regenerate-btn");
 const image = document.getElementById('image');
 
-function newQuote(event) {
+function newJoke(event) {
   event.preventDefault();
-  fetch("https://api.quotable.io/random")
+  fetch("https://official-joke-api.appspot.com/random_joke")
     .then((response) => {
       console.log("resolved", response);
       return response.json();
     })
     .then((data) => {
-      content.innerText = `"${data.content}"`;
-      author.innerText = `-${data.author}`;
+      setup.innerText = `${data.setup}`;
+      punchline.innerText = `- ${data.punchline}`;
     })
     .catch((err) => {
       console.log("rejected", err);
     });
 }
-button.addEventListener("click", newQuote);
+button.addEventListener("click", newJoke);
 
 
 function newImg() {
