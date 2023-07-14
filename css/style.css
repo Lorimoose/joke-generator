@@ -6,21 +6,15 @@ body {
   font-family: "Belanosima", sans-serif;
 }
 
-#dark-mode-btn {
-  border-radius: 0.5rem;
-  margin: 25px;
-  align-items: right;
-}
-
-
 #title {
   margin: 0x 0px 25px;
   font-size: 4rem;
+  letter-spacing: 0.1rem;
 }
 
 #image {
   border-radius: 0.5rem;
-  box-shadow:10px 10px 5px #48ff9d;
+  box-shadow: 10px 10px 5px #1D2DA5;
   width: 380px;
   height: 380px;
   display: block;
@@ -32,6 +26,7 @@ body {
 #setup {
   color: black;
   font-size: 2rem;
+  letter-spacing: 0.1rem;
   text-align: center;
   width: 50%;
   display: block;
@@ -41,8 +36,9 @@ body {
 }
 
 #punchline {
-  color: rgb(22, 133, 22);
+  color: #1D2DA5;
   font-size: 1.8rem;
+  letter-spacing: 0.1rem;
 }
 
 #regenerate-btn {
@@ -75,7 +71,7 @@ button:hover {
 .figure {
   width: 100%;
   margin: 15px auto;
-  display: inline-block; 
+  display: inline-block;
   justify-content: center;
   align-items: center;
 }
@@ -84,6 +80,39 @@ button:hover {
   margin: 25px 25px 0px;
 }
 
+#dark-mode-btn {
+  border-radius: 0.5rem;
+  margin: 50px 50px 25px 0px;
+  align-items: right;
+  font-size: 1.2rem;
+}
+
+.dark-mode {
+  background-image: url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.dark-mode #setup{
+  color: white;
+}
+
+.dark-mode #punchline{
+  color: #c57eff;
+}
+
+.dark-mode #image {
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 5px #c57eff;;
+  width: 380px;
+  height: 380px;
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width: 500px) {
   #title {
@@ -97,5 +126,8 @@ button:hover {
   }
   #punchline {
     font-size: 1rem;
-}
+  }
+  #dark-mode-btn {
+    font-size: 1rem;
+  }
 }

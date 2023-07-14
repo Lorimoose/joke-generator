@@ -2,14 +2,14 @@ const setup = document.querySelector("#setup");
 const punchline = document.querySelector("#punchline");
 const button = document.querySelector("#regenerate-btn");
 const answerButton = document.querySelector("#answer-btn");
+const darkModeButton = document.querySelector("#dark-mode-btn");
 const image = document.getElementById('image');
 
-
-answerButton.addEventListener('click', showAnswer)
 
 function showAnswer() {
     punchline.classList.remove('visually-hidden')
 }
+answerButton.addEventListener('click', showAnswer)
 
 function hideAnswer() {
   punchline.classList.add('visually-hidden')
@@ -31,7 +31,7 @@ function newJoke(event) {
       console.log("rejected", err);
     });
 }
-button.addEventListener("click", newJoke, hideAnswer);
+button.addEventListener("click", newJoke);
 
 
 function newImg() {
@@ -46,3 +46,9 @@ function newImg() {
     });
 }
 button.addEventListener("click", newImg);
+
+function darkMode() {
+    var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+darkModeButton.addEventListener('click', darkMode)
