@@ -6,8 +6,15 @@ body {
   font-family: "Belanosima", sans-serif;
 }
 
+#dark-mode-btn {
+  border-radius: 0.5rem;
+  margin: 25px;
+  align-items: right;
+}
+
+
 #title {
-  margin: 75px 0px 25px;
+  margin: 0x 0px 25px;
   font-size: 4rem;
 }
 
