@@ -50,6 +50,17 @@ body {
   cursor: pointer;
 }
 
+#answer-btn {
+  background-color: aliceblue;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  margin: 25px auto 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
 button:hover {
   color: rgb(22, 133, 22);
 }
