@@ -80,7 +80,7 @@ button:hover {
   margin: 25px 25px 0px;
 }
 
-#dark-mode-btn {
+#dark-mode-toggle {
   border-radius: 0.5rem;
   margin: 50px 50px 25px 0px;
   align-items: right;
